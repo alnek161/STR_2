@@ -2,7 +2,7 @@ package Food;
 
 public class Garnish extends Product {
     private String type;
-    private String mainIngredient;
+    private String mainIngredient;//Основной ингридиент
 
     public Garnish(String s){
         super();
