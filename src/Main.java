@@ -11,7 +11,7 @@ public class Main {
         ArrayList<Product> order = new ArrayList<Product>();;
         ArrayList<Product> products = menu.createMenu();
         while(true){
-            menu.menuOut();
+            menu.menuOut();//Вывод меню
             int value = scanner.nextInt();
             switch (value){
                 case 0: return;
