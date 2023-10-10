@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Operation operation = new Operation();
         Menu menu = new Menu();
-        ArrayList<Product> order = new ArrayList<Product>();;
+        ArrayList<Product> order = new ArrayList<Product>();//Ввод товаров
         ArrayList<Product> products = menu.createMenu();
         while(true){
             menu.menuOut();//Вывод меню
