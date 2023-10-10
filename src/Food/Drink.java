@@ -5,7 +5,7 @@ import Food.Product;
 import java.util.Objects;
 
 public class Drink  extends Product {
-    private float volume;
+    private float volume;//Объем
     private boolean carbonated;
 
     public Drink(){
